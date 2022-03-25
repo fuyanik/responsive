@@ -1,0 +1,594 @@
+@font-face {
+    font-family: 'Avenir';
+    src: local('Avenir Roman'), local('Avenir-Roman'), url('Avenir-Roman.woff2') format('woff2'), url('Avenir-Roman.woff') format('woff'), url('Avenir-Roman.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    margin-top: 80px;
+    margin-left: 55px;
+    margin-right: 55px;
+    height: 1200px;
+    width: 100%px;
+    max-width: 1396px;
+    background-color: rgb(250, 250, 250);
+}
+
+.divider {
+    color: rgba(27, 19, 19, 0.096);
+    width: 350px;
+    padding-top: 18px;
+    margin-left: 260px;
+}
+
+.text0 {
+    display: none;
+}
+
+.text1 {
+    margin-bottom: -15px;
+    letter-spacing: -1px;
+    padding-top: 10px;
+    margin-left: 470px;
+    font-family: 'Avenir';
+    font-size: 46px;
+    width: 45%;
+    display: flex;
+    font-weight: 400;
+}
+
+.text2 {
+    letter-spacing: -1px;
+    font-family: 'Avenir';
+    color: #959595;
+    margin-left: 510px;
+    font-size: 42px;
+}
+
+.text3 {
+    display: none;
+}
+
+.row {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-right: 50px;
+    justify-content: center;
+}
+
+.container {
+    width: 20%;
+    margin-left: 20px;
+}
+
+.container img {
+    width: 100%;
+    transform: scale(0.95);
+}
+
+.docName {
+    font-family: 'Sofia Pro';
+    margin-top: 2px;
+    margin-right: -5px;
+    font-size: 24px;
+}
+
+.schName {
+    font-family: 'Sofia Pro';
+    font-size: 16px;
+    margin-top: -39px;
+    max-width: 245px;
+    color: #545454;
+    font-weight: 400;
+}
+
+.exp {
+    font-family: 'Sofia Pro';
+    font-size: 16px;
+    color: #545454;
+    max-width: 250px;
+    font-weight: 400;
+}
+
+.row .container:focus,
+.row .container:hover {
+    transform: scale(1.1);
+}
+
+.row::-webkit-scrollbar {
+    width: 0;
+}
+
+.divider2 {
+    color: rgba(27, 19, 19, 0.096);
+    width: 350px;
+    padding-top: 18px;
+    margin-left: 260px;
+}
+
+.textBottom {
+    font-family: 'Sofia Pro';
+    font-size: 18px;
+    margin-left: 540px;
+    font-weight: 400;
+}
+
+
+/* Get Started Buttons */
+
+.button2 {
+    margin-top: 25px;
+    margin-left: 590px;
+    display: flex;
+    background-color: rgb(8, 8, 141);
+    padding: 4px;
+    padding-left: 20px;
+    color: white;
+    width: 195px;
+    height: 35px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.button2:hover {
+    background-color: rgb(255, 208, 0);
+}
+
+.buttonText2 {
+    font-family: 'Sofia Pro';
+    margin-top: 9px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 4px;
+}
+
+.line2 {
+    margin-left: 25px;
+    font-size: 22px;
+    width: 3px;
+    margin-top: 3px;
+}
+
+.arrow2 {
+    margin-top: 5px;
+    margin-left: 38px;
+    margin-right: 3px;
+    font-size: 25px;
+}
+
+
+/*  MEET THE TEAM BUTTON (1) */
+
+.button3 {
+    margin-top: 1px;
+    border-style: solid;
+    border-color: rgb(8, 8, 141);
+    border-width: 1px;
+    margin-left: 602px;
+    display: flex;
+    background-color: white;
+    padding: 4px;
+    padding-left: 20px;
+    color: white;
+    width: 170px;
+    height: 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.buttonText3 {
+    font-family: 'Sofia Pro';
+    margin-top: 7px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 4px;
+    color: rgb(8, 8, 141);
+}
+
+.line3 {
+    font-size: 22px;
+    margin-left: 11px;
+    width: 3px;
+    margin-top: 3px;
+    color: rgb(8, 8, 141);
+}
+
+.arrow3 {
+    margin-top: 5px;
+    margin-left: 12px;
+    margin-right: 3px;
+    font-size: 20px;
+    color: rgb(8, 8, 141);
+}
+
+.buton {
+    display: inline;
+    margin-left: 595px;
+    margin-top: 5px;
+}
+
+
+/*  MEET THE TEAM BUTTON (2) */
+
+.fancy {
+    background-color: transparent;
+    border: 2px solid rgb(8, 8, 141);
+    border-radius: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    float: none;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 1.25em 2em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    transition: all 0.3s ease-in-out;
+    user-select: none;
+    font-size: 13px;
+}
+
+.fancy::before {
+    content: " ";
+    width: 1.5625rem;
+    height: 2px;
+    background: rgb(8, 8, 141);
+    top: 50%;
+    left: 1.5em;
+    position: absolute;
+    transform: translateY(-50%);
+    transform-origin: center;
+    transition: background 0.3s linear, width 0.3s linear;
+}
+
+.fancy .text {
+    font-size: 1.125em;
+    line-height: 1.33333em;
+    padding-left: 2em;
+    display: block;
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(8, 8, 141);
+}
+
+.fancy .top-key {
+    height: 2px;
+    width: 1.5625rem;
+    top: -2px;
+    left: 0.625rem;
+    position: absolute;
+    background: rgb(250, 250, 250);
+    transition: width 0.5s ease-out, left 0.3s ease-out;
+}
+
+.fancy .bottom-key-1 {
+    height: 2px;
+    width: 1.5625rem;
+    right: 1.875rem;
+    bottom: -2px;
+    position: absolute;
+    background: rgb(250, 250, 250);
+    transition: width 0.5s ease-out, right 0.3s ease-out;
+}
+
+.fancy .bottom-key-2 {
+    height: 2px;
+    width: 0.625rem;
+    right: 0.625rem;
+    bottom: -2px;
+    position: absolute;
+    background: rgb(250, 250, 250);
+    transition: width 0.5s ease-out, right 0.3s ease-out;
+}
+
+.fancy:hover {
+    color: white;
+    background: rgb(8, 8, 141);
+}
+
+.fancy:hover::before {
+    width: 0.9375rem;
+    background: white;
+}
+
+.fancy:hover .text {
+    color: white;
+    padding-left: 1.5em;
+}
+
+.fancy:hover .top-key {
+    left: -2px;
+    width: 0px;
+}
+
+.fancy:hover .bottom-key-1,
+.fancy:hover .bottom-key-2 {
+    right: 0;
+    width: 0;
+}
+
+
+/*  MEET THE TEAM BUTTON (3) */
+
+.buton2 {
+    margin-left: 602px;
+}
+
+button {
+    position: relative;
+    padding: 1em 1.8em;
+    outline: none;
+    border: 1px solid #303030;
+    background: rgb(8, 8, 141);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    box-shadow: 0 0 10px rgb(62, 62, 95), 0 0 5px #a8a9b4, 0 0 10px rgb(70, 70, 121);
+    ;
+    transition-delay: 0.6s;
+}
+
+button span {
+    position: absolute;
+}
+
+button span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #ae00ff);
+}
+
+button:hover span:nth-child(1) {
+    left: 100%;
+    transition: 0.7s;
+}
+
+button span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #001eff);
+}
+
+button:hover span:nth-child(3) {
+    right: 100%;
+    transition: 0.7s;
+    transition-delay: 0.35s;
+}
+
+button span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #ae00ff);
+}
+
+button:hover span:nth-child(2) {
+    top: 100%;
+    transition: 0.7s;
+    transition-delay: 0.17s;
+}
+
+button span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #001eff);
+}
+
+button:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 0.7s;
+    transition-delay: 0.52s;
+}
+
+button:active {
+    background: #ae00af;
+    background: linear-gradient(to top right, #ae00af, #001eff);
+    color: #bfbfbf;
+    box-shadow: 0 0 8px #ae00ff, 0 0 8px #001eff, 0 0 8px #ae00ff;
+    transition: 0.1s;
+}
+
+button:active span:nth-child(1) span:nth-child(2) span:nth-child(2) span:nth-child(2) {
+    transition: none;
+    transition-delay: none;
+}
+
+.buttonn {
+    --color: rgb(8, 8, 141);
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border-radius: .3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+}
+
+.buttonn::before,
+.buttonn::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+}
+
+.buttonn::before {
+    top: -1em;
+    left: -1em;
+}
+
+.buttonn::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+}
+
+.buttonn:hover::before,
+.buttonn:hover::after {
+    height: 410px;
+    width: 410px;
+}
+
+.buttonn:hover {
+    color: white;
+}
+
+.buttonn:active {
+    filter: brightness(.8);
+}
+
+.buton3 {
+    margin-left: 590px;
+}
+
+
+/*  MOBİLE VERSİON  */
+
+@media only screen and (max-width:767px) {
+    .divider,
+    .divider2,
+    .buton,
+    .buton2,
+    .buton3 {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(250, 250, 250);
+    }
+    .main {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        background-color: rgb(250, 250, 250);
+    }
+    /*  World class radiologists.
+         Centered around you. */
+    .text0 {
+        line-height: 38px;
+        letter-spacing: -1px;
+        font-family: 'Avenir';
+        display: block;
+        font-size: 35px;
+        max-width: 320px;
+        margin-top: 45px;
+        margin-left: 20px;
+    }
+    .text1 {
+        display: none;
+    }
+    .text2 {
+        display: none;
+    }
+    /* Swipe Right (ONLY MOBİLE) */
+    .text3 {
+        font-family: 'Sofia Pro';
+        display: block;
+        font-size: 17px;
+        margin-top: 10px;
+        margin-left: 23px;
+        color: gray;
+    }
+    .row::-webkit-scrollbar {
+        width: 0;
+    }
+    .row {
+        margin-top: 7px;
+        display: flex;
+        overflow-x: auto;
+        padding-left: 520px;
+        margin-left: 8px;
+    }
+    .container {
+        min-width: 240px;
+        margin-left: 35px;
+        border-right: 2px solid rgb(196, 192, 192);
+    }
+    .container img {
+        height: 248px;
+        width: 228px;
+    }
+    .row .container:focus,
+    .row .container:hover {
+        transform: none;
+    }
+    /* Doctor Name */
+    .docName {
+        margin-left: 5px;
+        font-size: 33px;
+        max-width: 190px;
+    }
+    /* School Name */
+    .schName {
+        color: rgba(128, 128, 128, 0.733);
+        margin-left: 5px;
+        font-size: 17px;
+        max-width: 185px;
+    }
+    /* Experience*/
+    .exp {
+        color: rgba(128, 128, 128, 0.733);
+        margin-top: -10px;
+        margin-left: 5px;
+        max-width: 200px;
+    }
+    .textBottom {
+        display: none;
+    }
+    /* Get Started Button*/
+    .button2 {
+        margin-top: -12px;
+        margin-left: 25px;
+    }
+    /* Meet The Team Button*/
+    .button3 {
+        margin-left: 27px;
+    }
+}
